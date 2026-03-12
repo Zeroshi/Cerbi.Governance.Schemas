@@ -1,3 +1,4 @@
+using Xunit;
 using Cerbi.Governance.Schemas.Events;
 
 namespace Cerbi.Governance.Schemas.Tests;
