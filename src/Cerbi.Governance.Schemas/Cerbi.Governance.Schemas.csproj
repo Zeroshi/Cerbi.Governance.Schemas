@@ -6,11 +6,22 @@
     <Nullable>enable</Nullable>
     <RootNamespace>Cerbi.Governance.Schemas</RootNamespace>
     <PackageId>Cerbi.Governance.Schemas</PackageId>
-    <Version>1.0.0</Version>
-    <Authors>Zeroshi</Authors>
-    <Description>Canonical governance schema models for the Cerbi logging governance ecosystem.</Description>
-    <PackageTags>cerbi;governance;schemas;logging</PackageTags>
+    <Version>1.0.1</Version>
+    <Authors>Thomas Nelson</Authors>
+    <Company>Cerbi</Company>
+    <Copyright>© Cerbi 2025</Copyright>
+    <Description>Canonical governance schema models for the Cerbi logging governance ecosystem. Defines GovernedEvent, GovernanceProfileDefinition, EventFieldDefinition, and EventTemplateDefinition — the shared contracts used by all Cerbi logger plugins and signature libraries.</Description>
+    <PackageTags>cerbi;governance;schemas;logging;compliance;observability</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://cerbi.io</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Zeroshi/Cerbi.Governance.Schemas</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageReleaseNotes>v1.0.1: Added README to NuGet package, project URL, repository metadata.</PackageReleaseNotes>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="../../README.md" Pack="true" PackagePath="" />
+  </ItemGroup>
 
 </Project>
