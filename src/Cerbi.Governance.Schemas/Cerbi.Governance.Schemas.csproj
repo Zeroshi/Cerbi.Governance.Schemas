@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>Cerbi.Governance.Schemas</RootNamespace>
+    <PackageId>Cerbi.Governance.Schemas</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Zeroshi</Authors>
+    <Description>Canonical governance schema models for the Cerbi logging governance ecosystem.</Description>
+    <PackageTags>cerbi;governance;schemas;logging</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+</Project>
